@@ -6,13 +6,13 @@ services:
     ports:
       - "3001:3000"
   app2:
-    build:
+    build: .
     environment:
       - APP_NAME=App2
     ports:
       - "3002:3000"
   app3:
-    build:
+    build: .
     environment:
       - APP_NAME=App3
     ports:
